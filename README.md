@@ -26,10 +26,10 @@ There are two methods that you can use to install this BSP. We highly recommend 
  1. [Download and install the Arduino IDE](https://www.arduino.cc/en/Main/Software) (At least v1.6.12)
  2. Start the Arduino IDE
  3. Go into Preferences
- 4. Add the following lines as 'Additional Board Manager URL'
+ 4. Add the following line as 'Additional Board Manager URL'
 
    ```
-       https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/package_nRFMicro_index.json
+    https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json,https://raw.githubusercontent.com/pdcook/nRFMicro-Arduino-Core/main/package_nRFMicro_index.json
    ```
 
  5. Restart the Arduino IDE
